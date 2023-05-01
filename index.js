@@ -71,7 +71,7 @@ var emojiler = {
 /* ÖRNEK GÖREV:
 	cumleKur fonksiyonuna aşağıdakileri uygulayın:
 		1. Fonksiyon argüman olarak birbirinden farklı 5 tane string değişkeni parametre olarak alacak
-		2. 5 parametrenin birincisi öntanımsız olacak, diğer 4 string öntanımlı olacak ve `""` (null) değerini alacaktır.
+		2. 5 parametrenin birincisi öntanımsız olacak, diğer 4 string öntanımlı olacak ve "" (empty string) değerini alacaktır.
 		(💡 İPUCU: Ön tanımlı özelliği fonksiyonun gerekli parametresi gönderilmeden de çağırılabilmesini mümkün kılmaktadır.
 		ÖRNEK PARAMETRELERİ ÖN TANIMLI FONKSİYON: 
 		function foo(degisken=false){
