@@ -128,10 +128,10 @@ console.log(bircumle);
       5. Oluşturulan yeni dizi döndürülecek.
   */
 
-function cumlelereDonustur(arrtoBeSelected, seperator = ",") {
-  let joinedarr = arrtoBeSelected.map((string) => string.join(seperator));
+function cumlelereDonustur(selectedArr, seperator = ",") {
+  let toggleArr = selectedArr.map((item) => item.join(seperator));
 
-  return joinedarr;
+  return toggleArr;
 }
 
 console.log(cumlelereDonustur(cumleler, " "));
